@@ -1,0 +1,20 @@
+.filter-btns{
+    display: flex;
+    justify-content: center;
+    // gap: 20px;
+    flex-wrap: wrap;
+}
+.filter-btns button{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    transition-duration:0.3s ;
+}
+.filter-btns button:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.filter-btns-permanent{
+    background-color: var(--primary-color);
+    color: white;
+}
+

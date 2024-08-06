@@ -1,0 +1,52 @@
+.update-item-container{
+    padding: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    border-radius: 1.5rem;
+    // display: inline-block;
+
+}
+.update-item-container img {
+  width: 100px;
+//   height: 210px;
+}
+.update-item-container h5{
+    width: 150px;
+    overflow: hidden;
+}
+.update-item-container p{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.bill-summary{
+    width: 230px;
+}
+.bill-summary-headings{
+    display: inline-block;
+    width: 180px;
+}
+.counter{
+    display: inline-block;
+    height: 43px !important;
+    border-radius: 2px;
+}
+.counter-btn{
+    height: 43px;
+}
+
+@media screen  and (max-width:770px){ 
+    .all-order-items-container{
+        width: 100%;
+        display: flex;
+        align-items: center !important;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .update-item-container{
+        width:300px;
+    }
+    
+    
+}

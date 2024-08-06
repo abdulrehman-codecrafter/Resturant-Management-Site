@@ -1,0 +1,64 @@
+.add-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-form{
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.3);
+    padding: 40px 25px 10px 25px;
+    border-radius: 1.7rem;
+}
+.add-form h2{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size:2.25rem ;
+}
+.input-group{
+    width: 300px;
+    border: 1px solid black;
+    position: relative;
+    margin-bottom: 1rem;
+    z-index: 50;
+    // border-radius:10px ;
+}
+.input-group .input{
+    width: 290px;
+    height: 2.5rem;
+    font-size:1rem ;
+    outline: none !important;
+    border: none !important;
+}
+.input-group label{
+    padding: 0 7px;
+    position: absolute;
+    left: 0.8rem;
+    z-index: 999;
+    top: 6px;
+    background-color: white;
+    transition-duration: 0.3s;
+}
+
+ .input-group input:focus ~ label,
+ .input-group input:not(:placeholder-shown) ~ label  {
+    top: -12px;
+    font-size: 14px;
+    color: var(--primary-color)
+}
+.submit-btn .btn{
+    background-color: var(--primary-color);
+    letter-spacing: 1.1px;
+    font-size: 1.05rem;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+.submit-btn .btn:hover{
+    background-color: transparent;
+    color: var(--primary-color) !important;
+    border:1px solid var(--primary-color) ;
+    
+}
+
+.select-form{
+    padding: 30px auto !important;
+}

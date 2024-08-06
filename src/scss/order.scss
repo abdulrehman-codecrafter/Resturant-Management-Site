@@ -1,0 +1,48 @@
+.order-item-container{
+    padding: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    border-radius: 1.5rem;
+    // display: inline-block;
+
+}
+.order-item-container img {
+  width: 100px;
+//   height: 210px;
+}
+.order-item-container h5{
+    // width: 200px;
+}
+
+.bill-summary{
+    width: 230px;
+}
+.bill-summary-headings{
+    display: inline-block;
+    width: 180px;
+}
+.counter{
+    display: inline-block;
+    height: 43px !important;
+    border-radius: 2px;
+}
+.counter-btn{
+    height: 43px;
+    margin-bottom: 2px;
+}
+
+@media screen  and (max-width:770px){ 
+    .all-order-items-container{
+        width: 100%;
+        display: flex;
+        align-items: center !important;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .order-item-container{
+        width:300px;
+    }
+    
+    
+}

@@ -1,0 +1,38 @@
+.banner-card {
+  // width: 350px;
+  // box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+  // border-radius:1.5rem;
+  // padding: 30px 25px;
+  padding: 2rem 2rem 1rem 2rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 3rem;
+  transition: 0.3s;
+  width: 320px;
+}
+.banner-card:hover{
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.3);
+}
+
+.banner-card .banner-icon {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 5px 11px;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 1rem;
+}
+
+.banner-card:nth-child(1) .banner-icon {
+  background-color: #62b15c;
+  box-shadow: 5px 5px 30px #62b15cd0;
+}
+
+.banner-card:nth-child(2) .banner-icon {
+  background-color: #ff3e67;
+  box-shadow: 5px 5px 30px #ff3e67d0;
+}
+
+.banner-card:nth-child(3) .banner-icon {
+  background-color: #185adb;
+  box-shadow: 5px 5px 30px #185adbd0;
+}

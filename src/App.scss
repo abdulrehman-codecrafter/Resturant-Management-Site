@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "./scss/bootstrap";
+@import "./scss/header.scss";
+@import "./scss/home.scss";
+@import "./scss/itemCard.scss";
+@import "./scss/footer.scss";
+@import "./scss/auth.scss";
+@import "./scss/menu.scss";
+@import "./scss/about.scss";
+@import "./scss/banner-card.scss";
+@import "./scss/swiper-card.scss";
+@import "./scss/order.scss";
+@import "./scss/dash-add.scss";
+@import "./scss/update-item.scss";
+@import "./scss/screen-loader.scss";
+
+:root{
+    --primary-color:#fc7f09;
+    --primary-color-light:#fffcfa;
+    --primary-color-dark:#db6e09;
+    --text-dark:#18181b;
+    --text-light:#6b7280;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+

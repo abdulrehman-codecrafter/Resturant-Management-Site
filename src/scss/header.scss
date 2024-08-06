@@ -1,0 +1,78 @@
+
+.nav-item{
+    margin-right: 20px;
+}
+.navbar-brand-food{
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: var(--primary-color);
+}
+.navbar-brand-man{
+    font-weight: 700;
+    font-size:1.6rem ;
+}
+.shop-icon-container{
+    background-color: var(--primary-color);
+    padding: 6px 9px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+.shop-icon{
+    font-size: 20px !important ;
+}
+.nav-item a{
+    position: relative;
+    font-size: 1.05rem;
+    cursor: pointer;
+    display: inline-block;
+
+
+
+
+}
+
+.nav-item a:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    left: 0;
+    bottom: 6px;
+    transition: 0.3s;
+}
+.nav-item a:hover:after{
+    width: 100%;
+   
+}
+
+
+/* From Uiverse.io by satyamchaudharydev */ 
+.login-btn {
+    --login-primary-color: var(--primary-color);
+    
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--login-primary-color);
+    border: 1.5px solid var(--primary-color);
+    padding: 0.33rem 1.1rem 0.33rem 1.3rem;
+    // background: var(--login-primary-color);
+    display: flex;
+    transition: 0.3s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: 500;
+    display: inline-block;
+  }
+  
+  
+  
+  .login-btn:hover {
+    background-color:  var(--login-primary-color);
+    color: white;
+  }
+  
+  
